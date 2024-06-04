@@ -1,5 +1,10 @@
 [user]
 	name = Joshua Voigt
 	email = joshua.voigt@tum.de
+	signingKey = F84897B1!
 [core]
 	editor = nvim
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = true
