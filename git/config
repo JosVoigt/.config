@@ -1,0 +1,5 @@
+[user]
+	name = Joshua Voigt
+	email = joshua.voigt@tum.de
+[core]
+	editor = nvim
