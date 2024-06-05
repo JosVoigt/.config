@@ -5,3 +5,12 @@ eval "$(oh-my-posh init bash --config "https://raw.githubusercontent.com/JanDeDo
 eval "$(oh-my-posh init bash)"
 
 eval "$(keychain --agents ssh --eval ~/.ssh/keys/* --noask)"
+
+
+
+
+#-----------------------------ALIASES--------------------#
+alias l="ls -laogA"
+alias n="nvim ."
+alias t="tree"
+alias makev="make VERBOSE=1"

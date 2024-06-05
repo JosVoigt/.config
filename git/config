@@ -1,5 +1,8 @@
 [user]
 	name = Joshua Voigt
 	email = joshua.voigt@tum.de
+	signingKey = A55517D472FCDDFD60F6E79E74F5E62DF84897B1
 [core]
 	editor = nvim
+[gpg]
+	program = gpg2
