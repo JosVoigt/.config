@@ -1,0 +1,18 @@
+#new prefix
+unbind C-b
+set-option -g prefix C-u 
+bind-key C-u send-prefix
+
+#pane splitting
+bind C-j split-window -h
+bind C-h split-window -v
+unbind '"'
+unbind %
+
+#better pane switching
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
+set -sg escape-time 0
