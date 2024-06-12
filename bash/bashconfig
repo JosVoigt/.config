@@ -10,9 +10,9 @@ eval "$(keychain --agents ssh,gpg --eval ~/.ssh/keys/* A55517D472FCDDFD60F6E79E7
 
 
 #-----------------------------ALIASES--------------------#
-alias l="ls -laogA"
+alias l="ls -laogAh"
 alias n="nvim ."
-alias t="tree"
+alias t="tree | less -R"
 alias makev="make VERBOSE=1"
 alias cd..="cd .."
 alias cd...="cd ../.."
